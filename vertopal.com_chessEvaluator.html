@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>0c4be164978e4d0cb1c441e3181d1b31</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<h1><b>How to Create a Convolutional Neural Network</b></h1>
+</div>
+<div class="cell markdown">
+<p>Max said that he would specifically grade this project.</p>
+</div>
+<div class="cell markdown">
+<p>"Making a neural network capable of evaluating a chess board can be a daunting task, especially for those new to the field of machine learning. However, with the right tools and knowledge, creating a neural network to evaluate a chess board is a achievable goal. In this step by step guide, we will go through the process of building a neural network from scratch that is capable of evaluating a chess board and providing a score for a given chess position. We will cover the necessary concepts and techniques, including data preprocessing, model training and evaluation, and finally, using the trained model to evaluate a chess board. By the end of this guide, you will have a working neural network that can evaluate a chess board and provide a score for a given position." - GPT-3</p>
+</div>
+<div class="cell markdown">
+<h3><b>Getting the Data</b></h3>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing required python libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle <span class="im">as</span> pkl</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>This dataset has almost 13 million chess positions, each represented by a FEN and paired with an evaluation. The FEN is a way of representing a chess position through a string. It includes where each piece is, whose turn it is, and a bit more information that we're going to ignore.</p>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Loading in the chess data csv</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;chessData/chessData.csv&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>FEN</th>
+      <th>Evaluation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR ...</td>
+      <td>-10</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBN...</td>
+      <td>+56</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBN...</td>
+      <td>-9</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKB...</td>
+      <td>+52</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQK...</td>
+      <td>-26</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>12958030</th>
+      <td>r1bqkb1r/pp3ppp/1nn1p3/3pP3/3P1P2/1B3N2/PP2Q1P...</td>
+      <td>+6</td>
+    </tr>
+    <tr>
+      <th>12958031</th>
+      <td>r2qkb1r/pp1b1ppp/1nn1p3/3pP3/3P1P2/1B3N2/PP2Q1...</td>
+      <td>+84</td>
+    </tr>
+    <tr>
+      <th>12958032</th>
+      <td>r2qkb1r/pp1b1ppp/1nn1p3/3pP3/3P1P2/1BN2N2/PP2Q...</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12958033</th>
+      <td>r2qkb1r/pp1b1ppp/1n2p3/n2pP3/3P1P2/1BN2N2/PP2Q...</td>
+      <td>+115</td>
+    </tr>
+    <tr>
+      <th>12958034</th>
+      <td>r2qkb1r/pp1b1ppp/1n2p3/n2pP3/3P1P2/2N2N2/PPB1Q...</td>
+      <td>+45</td>
+    </tr>
+  </tbody>
+</table>
+<p>12958035 rows × 2 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>First, we need to make sure that the neural network will be able to easily learn how to properly rate the chessboard. In order to do this, we must convert the score from a string to an integer. This is easy enough except some entries have a # at the begining of it mean that forced checkmate is available in that number of moves. Clearly this is a massivley winning position and so it will be set a large value. We also need to remove the + at the begining of the positive evaluations and convert everything to an integer.</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convertScore(score):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If the evaluation is preceded by &#39;#&#39; then it means a checkmate is iminate. This implies a high score position</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> score[<span class="dv">0</span>] <span class="op">==</span> <span class="st">&#39;#&#39;</span>:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score[<span class="dv">1</span>] <span class="op">==</span> <span class="st">&#39;+&#39;</span>:</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">10000</span> <span class="op">+</span> ((<span class="dv">10</span><span class="op">-</span><span class="bu">int</span>(score[<span class="dv">2</span>:])) <span class="op">*</span> <span class="dv">100</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>             <span class="cf">return</span> <span class="op">-</span><span class="dv">10000</span> <span class="op">+</span> ((<span class="dv">10</span><span class="op">-</span><span class="bu">int</span>(score[<span class="dv">2</span>:])) <span class="op">*</span> <span class="op">-</span><span class="dv">100</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Goes through the evaluations and removes any preceding characters that prevent conversion to integer. In this case its just &#39;+&#39;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, c <span class="kw">in</span> <span class="bu">enumerate</span>(score):</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> c.isdigit() <span class="kw">or</span> c <span class="op">==</span> <span class="st">&#39;-&#39;</span>:</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>            score <span class="op">=</span> score[i:]</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Converts the evaluation to an integer</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">int</span>(score)    </span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Applies convertScore to each evaluation in the dataframe</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Evaluation&quot;</span>] <span class="op">=</span> df[<span class="st">&quot;Evaluation&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: convertScore(x))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Getting the average distance from 0</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(df[<span class="st">&quot;Evaluation&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">abs</span>(x)).mean()))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Getting the standard deviation from 0</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Standard Deviation: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(df[<span class="st">&quot;Evaluation&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">abs</span>(x)).std()))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Getting the maximum distance from 0</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Max Distance from Zero: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(df[<span class="st">&quot;Evaluation&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">abs</span>(x)).<span class="bu">max</span>()))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean: 452.32746948129096
+Standard Deviation: 1420.8912596953062
+Max Distance from Zero: 15319
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Each of these chessboards needs to be converted into something that can be run through a neural network. In this case, we're going to use a bitboard. A bitboard is an 12x8x8 representation of chessboard that has a layer for each of the 12 chess piece types (white pawn, black pawn, white bishop, etc...) Each layer will be full of zeroes except if the piece corresponding to the layer exists at a point, in which case that point will be a 1.</p>
+<p>To convert each of the FENs to a bitboard, I created the convertFenToBitBoard function that places each piece where it should be on the board. This turns each board into a 12x8x8 array. This function also changes the evaluation paired with board by multiplying it by -1 if the FEN says that the evaluation is from the black player's perspective. This will make sure that all of the evaluations are from the white player's perspective. At the same time, the evaluations are normalized between 0 and 1 by dividing everything by two times the maximum distance an evaluation is from 0 and then adding 0.5, in this case that maximum value is 15319. This will make it easier for the network to learn.</p>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convertFenToBitBoard(row):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Splits the FEN by &#39; &#39;. The first entry in this resulting list will be the string representation of the board</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    FEN <span class="op">=</span> row[<span class="dv">0</span>].split(<span class="st">&quot; &quot;</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Creating a 12x8x8 bitboard to store the board</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    board <span class="op">=</span> np.zeros((<span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>), dtype<span class="op">=</span><span class="bu">int</span>)  </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Splits the string representation of the board by row</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    pieces <span class="op">=</span> FEN[<span class="dv">0</span>].split(<span class="st">&quot;/&quot;</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Maps each piece type to a layer of the board</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    pieceMapping <span class="op">=</span> {</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;k&#39;</span>: <span class="dv">11</span>,</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;q&#39;</span>: <span class="dv">10</span>,</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;r&#39;</span>: <span class="dv">9</span>,</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;b&#39;</span>: <span class="dv">8</span>,</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;n&#39;</span>: <span class="dv">7</span>,</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;p&#39;</span>: <span class="dv">6</span>,</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;K&#39;</span>: <span class="dv">5</span>,</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;Q&#39;</span>: <span class="dv">4</span>,</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;R&#39;</span>: <span class="dv">3</span>,</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;B&#39;</span>: <span class="dv">2</span>,</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;N&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;P&#39;</span>: <span class="dv">0</span>,</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Goes through each row of the board</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> y <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">8</span>):</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>        index <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Goes through each column of the board</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> c <span class="kw">in</span> pieces[y]:</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Converts the character of the piece and puts it into the bitboard</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> c.isdigit():</span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>                index <span class="op">+=</span> <span class="bu">int</span>(c)<span class="op">-</span><span class="dv">1</span>                </span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>                board[pieceMapping[c]][y][index] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>            index <span class="op">+=</span> <span class="dv">1</span> </span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    score <span class="op">=</span> row[<span class="dv">1</span>]</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>    <span class="co"># If the active player is black, it will invert the score so that each board rating is consistently from the white player&#39;s perspective</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> FEN[<span class="dv">1</span>] <span class="op">==</span> <span class="st">&#39;b&#39;</span>:</span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>        score <span class="op">=</span> <span class="op">-</span>score</span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Stores the bitbaord and the normalized score</span></span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>    row[<span class="st">&quot;board&quot;</span>] <span class="op">=</span> board  </span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>    row[<span class="st">&quot;score&quot;</span>] <span class="op">=</span> (score<span class="op">/</span>(<span class="dv">2</span><span class="op">*</span><span class="dv">15319</span>)) <span class="op">+</span> <span class="fl">0.5</span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Returns the converted row</span></span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> row</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Since there are almost 13 millions boards in the dataset and I am running this on my home computer, we can't store all of them in memory along with the neural network. To combat this, the data is stored on the disk in chunks that can be loaded into memory as needed. This wouldn't be necessary for a dataset of this size on a machine with larger quantities of memory.</p>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of boards per pickle</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> <span class="dv">1000000</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Goes through each section of data</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">int</span>(<span class="bu">len</span>(df)<span class="op">/</span>size)<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Applies convertFenToBitBoard on all of the boards in that section of data</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> df[i<span class="op">*</span>size:(i<span class="op">+</span><span class="dv">1</span>)<span class="op">*</span>size].<span class="bu">apply</span>(<span class="kw">lambda</span> x: convertFenToBitBoard(x), axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Converts the boards and scores to tensors</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    xData <span class="op">=</span> torch.tensor(np.stack(data[<span class="st">&quot;board&quot;</span>]))</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    yData <span class="op">=</span> torch.tensor(np.stack(data[<span class="st">&quot;score&quot;</span>]))</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Stores the board and score tensors as tuples on disk</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(<span class="ss">f&quot;data/convertedChessData</span><span class="sc">{i}</span><span class="ss">.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>        pkl.dump((xData, yData), f)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<h3><b>Designing the Network</b></h3>
+</div>
+<div class="cell markdown">
+<p>Now that the dataset has been turned into something we can use with a neural network, it's time to build that neural network. There are many python libraries you can use such as Keras, Tensorflow, and Pytorch but I will be using Pytorch for this tutortial.</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing required python libraries</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.optim</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> os <span class="im">import</span> listdir</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.nn.functional <span class="im">import</span> mse_loss</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>There are many hyper-parameters to tune in a neural network and sometimes the only way to figure out which hyper-parameters you need is to train and test a model over and over again in combination with educated guesses. I don't want to do that here because that would take a long time on my computer. Instead I'm setting the hyper-parameters based off of papers written on a very similar neural network. Here is a link to the paper I will be using: <a href="https://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/ICPRAM_CHESS_DNN_2018.pdf" class="uri">https://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/ICPRAM_CHESS_DNN_2018.pdf</a></p>
+<p>Here is a very un-exhaustive list of some of the hyper-parameters and what they do.</p>
+<p><b><em>Learning Rate:</em></b> This affects how much step of gradient descent will change the network. Higher learning rates generally mean that the network will go towards the minimum faster but it will also prevent the network from finding the optimal solution if it is too high. Lower learning rates mean that the network will take longer to train and could get stuck in local minimums but when it gets to the absolute minimum it will do a better job of going all the way down.</p>
+<p><b><em>Dropout:</em></b> Randomly sets the specified percentage of nodes in the layer to 0. This helps prevent overfitting because each time the same piece of data is passed through the network it will be slightly different and the network will have to generalize better.</p>
+<p><b><em>Momentum:</em></b> Momentum is a way for the network to not get stuck in local mimima. If the network is headed in a certain direction and a piece of data points it in a different direction then the momentum will keep it going in the direction that it was previously.</p>
+<p><b><em>Batch Size:</em></b> How much data is put into the network at a time.</p>
+<p><b><em>Number of Epochs:</em></b> How many time the network will run through the dataset.</p>
+<p><b><em>Testing Size:</em></b> What percentage of the network will be reserved for validating that the network didn't overfit (memorize the dataset.)</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dropout <span class="op">=</span> <span class="fl">.3</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>learningRate <span class="op">=</span> <span class="fl">0.001</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>batchSize <span class="op">=</span> <span class="dv">256</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>numEpochs <span class="op">=</span> <span class="dv">250</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>testSize <span class="op">=</span> <span class="fl">0.05</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>seed <span class="op">=</span> <span class="dv">1234</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>There are also infinitley many ways to design a network. How many layers, how many connections between layers, which types of layers, and the individual settings of each layer are all different settings than can be toyed with and tweaked. Again since this is a lot of educated guessing and checking I will be using the same architecture as the paper.</p>
+<p>Here is a list of the layers in this model and what they do.</p>
+<p><b><em>Convolutional Layer:</em></b> The convolutional layer is the meat of the convolutional neural network. It essentialy runs a filter over a two dimensional array and is a able to pick out relations between values that are near each other. In image detection, this is often edges and lines in images. The size of this filter, the filter's stride, and how many output layers there are can all be changed.</p>
+<p><b><em>Linear Layer:</em></b> The linear layer is the basic neural network layer. It runs the inputs through it, multiplies them by the weight and then adds a bias. You can change how many connections there are between linear layers.</p>
+<p><b><em>Batch Normalization Layer:</em></b> The batch normalization layer takes the inputs and normalizes them. This helps the network learn better.</p>
+<p><b><em>Dropout Layer:</em></b> The dropout layer applied the dropout hyper-parameter to the data as it is run through the network. This means it sets part of the inputs to zero. This helps prevent over-fitting.</p>
+<p><b><em>Flatten Layer:</em></b> A convolutional layer require a two dimensional data to be run through it. A linear layer requires one dimensional data to be run through it. The flatten layer takes the two dimensional data that the convolutional layer was working with and collapses it into one dimension.</p>
+<p><b><em>ELU Layer:</em></b> A key component of neural networks are activation functions. One of the activation functions is called ELU. This is essentially taking each input and if that input is greater than 0, it will return that same input but if the input is less than 0, the ELU layer will return α*(e<sup>x</sup> - 1) where α is a setting that can be change and x is the input.</p>
+<p><b><em>Sigmoid Layer:</em></b> The sigmoid layer will collapse all of the outputs to be between 0 and 1. This will help the network learn our data better. It does this by passing the inputs to the layer through the function 1/(1 + e^(-x)).</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> convNet(nn.Module):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(convNet, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># This is the convolutional layers of the network</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.conv_relu_stack <span class="op">=</span> nn.Sequential(</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>            <span class="co"># This is the convolutional layer (runs convolutions on inputs)</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">12</span>, <span class="dv">20</span>, kernel_size<span class="op">=</span>(<span class="dv">5</span>, <span class="dv">5</span>)),</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>            <span class="co"># This is the batch normalization layer (normalizes inputs)</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">20</span>),</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>            <span class="co"># This is the dropout layer (sets percent of input to 0)</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>            nn.Dropout2d(dropout),</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>            <span class="co"># This is the ELU layer (applies ELU activation to input)</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>            nn.ELU(),</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">20</span>, <span class="dv">50</span>, kernel_size<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>)),</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">50</span>),</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>            nn.Dropout2d(dropout),</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>            nn.ELU(),</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>            <span class="co"># This is the flatten layer (turns 2D inputs into 1D inputs)</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>            nn.Flatten()            </span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>        <span class="co"># This is the linear layers of the network</span></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.linear_relu_stack <span class="op">=</span> nn.Sequential(</span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">200</span>, <span class="dv">2048</span>),</span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm1d(<span class="dv">2048</span>),</span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>            nn.ELU(),</span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">2048</span>, <span class="dv">2048</span>),</span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm1d(<span class="dv">2048</span>),</span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>            nn.ELU(),</span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">2048</span>, <span class="dv">2048</span>),</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm1d(<span class="dv">2048</span>),</span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>            nn.ELU(),</span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">2048</span>, <span class="dv">1</span>),</span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>            nn.Sigmoid()</span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>    <span class="co"># This is the function to run data through the network</span></span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, <span class="bu">input</span>):</span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> <span class="va">self</span>.conv_relu_stack(<span class="bu">input</span>)</span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> <span class="va">self</span>.linear_relu_stack(out)</span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> out</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>These are just two functions I found that will help with training. iteratre_minibatches returns groups of size batchsize as an iterator. printProgressBar prints a progress to make it easier to see how far into each epoch you are.</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> iterate_minibatches(inputs, targets, batchsize, shuffle<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> <span class="bu">len</span>(inputs) <span class="op">==</span> <span class="bu">len</span>(targets)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> shuffle:</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>        indices <span class="op">=</span> np.random.permutation(<span class="bu">len</span>(inputs))</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> start_idx <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(inputs) <span class="op">-</span> batchsize <span class="op">+</span> <span class="dv">1</span>, batchsize):</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> shuffle:</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>            excerpt <span class="op">=</span> indices[start_idx:start_idx <span class="op">+</span> batchsize]</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>            excerpt <span class="op">=</span> <span class="bu">slice</span>(start_idx, start_idx <span class="op">+</span> batchsize)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> inputs[excerpt], targets[excerpt]</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="co"># This is just a nice visual marker of how far the network is into training since it can take a while.</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> printProgressBar (iteration, total, prefix <span class="op">=</span> <span class="st">&#39;&#39;</span>, suffix <span class="op">=</span> <span class="st">&#39;&#39;</span>, decimals <span class="op">=</span> <span class="dv">1</span>, length <span class="op">=</span> <span class="dv">100</span>, fill <span class="op">=</span> <span class="st">&#39;█&#39;</span>, printEnd <span class="op">=</span> <span class="st">&quot;</span><span class="ch">\r</span><span class="st">&quot;</span>):</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    percent <span class="op">=</span> (<span class="st">&quot;{0:.&quot;</span> <span class="op">+</span> <span class="bu">str</span>(decimals) <span class="op">+</span> <span class="st">&quot;f}&quot;</span>).<span class="bu">format</span>(<span class="dv">100</span> <span class="op">*</span> (iteration <span class="op">/</span> <span class="bu">float</span>(total)))</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    filledLength <span class="op">=</span> <span class="bu">int</span>(length <span class="op">*</span> iteration <span class="op">//</span> total)</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    bar <span class="op">=</span> fill <span class="op">*</span> filledLength <span class="op">+</span> <span class="st">&#39;-&#39;</span> <span class="op">*</span> (length <span class="op">-</span> filledLength)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;</span><span class="ch">\r</span><span class="sc">{</span>prefix<span class="sc">}</span><span class="ss"> |</span><span class="sc">{</span>bar<span class="sc">}</span><span class="ss">| </span><span class="sc">{</span>percent<span class="sc">}</span><span class="ss">% </span><span class="sc">{</span>suffix<span class="sc">}</span><span class="ss">&#39;</span>, end <span class="op">=</span> printEnd)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>In order to train the neural network as quickly as possible, it is advisable to use cuda. Cuda is what allows the code to interact with a graphics cards. Graphics cards are specially designed to run matrix multiplications quickly which are a core part of training neural networks. This next step is finding if cuda is on the computer and loading the neural network into the memory of the graphics card if its present. If it isn't then the network will be run on the cpu.</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is the path to the neural network (if one already exists.)</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>PATH <span class="op">=</span> <span class="st">&quot;chessEngine.model&quot;</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># This returns all of the file paths in data (where the chess data is stored.)</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>pickles <span class="op">=</span> listdir(<span class="st">&quot;data&quot;</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sets the device the network will run on to the graphics card if its available, otherwise it sets it to the cpu</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> torch.cuda.is_available():  </span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  device <span class="op">=</span> torch.device(<span class="st">&quot;cuda:0&quot;</span>)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:  </span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  device <span class="op">=</span> torch.device(<span class="st">&quot;cpu&quot;</span>)  </span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># If there is already a verison of the neural network saved, this will load its parameters</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    checkpoint <span class="op">=</span> torch.load(PATH)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span>:</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    checkpoint <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Building the network</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>network <span class="op">=</span> convNet()</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Puts the network on the device</span></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>network.to(device)</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Loads a previous network (if it exists)</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> checkpoint <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    network.load_state_dict(checkpoint[<span class="st">&#39;model_state_dict&#39;</span>])</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates the optimizer</span></span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>optim <span class="op">=</span> torch.optim.Adam(network.parameters(), lr<span class="op">=</span>learningRate, eps<span class="op">=</span><span class="fl">1.91828182846</span>)</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Loads a previous optimizer (if it exists)</span></span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> checkpoint <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>    optim.load_state_dict(checkpoint[<span class="st">&#39;optimizer_state_dict&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<h3><b>Training the Network</b></h3>
+</div>
+<div class="cell markdown">
+<p>Break down the steps</p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Goes through the data numEpoch times</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, numEpochs<span class="op">+</span><span class="dv">1</span>): </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Goes through each chunk of data</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, pic <span class="kw">in</span> <span class="bu">enumerate</span>(pickles):</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Prints the progress bar</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        printProgressBar(index, <span class="bu">len</span>(pickles), prefix<span class="op">=</span><span class="ss">f&quot;Epoch </span><span class="sc">{</span>epoch<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Loads the data into xData and yData</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(<span class="ss">f&quot;data/</span><span class="sc">{</span>pic<span class="sc">}</span><span class="ss">&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>            xData, yData <span class="op">=</span> pkl.load(<span class="bu">file</span>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Splits the data into chunks based on testSize. We only need the training set right now</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>        X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(xData, yData, test_size<span class="op">=</span>testSize, random_state<span class="op">=</span>seed)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Converts the loaded bitboards and scores into something that can be run through the neural network</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>        X_train <span class="op">=</span> X_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>        y_train <span class="op">=</span> y_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Goes through and returns batchSize number of chessboards and corresponding scores to run through the network each loop</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_train, y_train, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>            network.zero_grad()</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>            loss.backward()</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>            optim.step()</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Save the model every 5 epochs</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> epoch <span class="op">%</span> <span class="dv">5</span> <span class="op">==</span> <span class="dv">0</span>:        </span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>        torch.save({</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;model_state_dict&#39;</span>: network.state_dict(),</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;optimizer_state_dict&#39;</span>: optim.state_dict(),</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>                }, PATH)     </span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>                    </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 122 |████████████████████████████████████████████████████████████████████████████████████----------------| 84.6% </code></pre>
+</div>
+<div class="output error" data-ename="KeyboardInterrupt" data-evalue="">
+<pre><code>---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+Cell In [7], line 22
+     19 y_train = y_train.float().to(device)
+     21 # Goes through and returns batchSize number of chessboards and corresponding scores to run through the network each loop
+---&gt; 22 for X_batch,y_batch in iterate_minibatches(X_train, y_train, batchsize=batchSize, shuffle=True):
+     23     network.zero_grad()
+     24     out = network(X_batch.view(-1, 12, 8, 8))
+
+Cell In [5], line 10, in iterate_minibatches(inputs, targets, batchsize, shuffle)
+      8 else:
+      9     excerpt = slice(start_idx, start_idx + batchsize)
+---&gt; 10 yield inputs[excerpt], targets[excerpt]
+
+KeyboardInterrupt: 
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h3><b>Getting the Error</b></h3>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>trainError <span class="op">=</span> []</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>testError <span class="op">=</span> []</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>network.<span class="bu">eval</span>()</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> torch.no_grad():</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> pic <span class="kw">in</span> pickles:</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(<span class="ss">f&quot;data/</span><span class="sc">{</span>pic<span class="sc">}</span><span class="ss">&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>            xData, yData <span class="op">=</span> pkl.load(<span class="bu">file</span>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>        X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(xData, yData, test_size<span class="op">=</span>testSize, random_state<span class="op">=</span>seed)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>        X_train <span class="op">=</span> X_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>        X_test <span class="op">=</span> X_test.<span class="bu">float</span>().to(device)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>        y_train <span class="op">=</span> y_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>        y_test <span class="op">=</span> y_test.<span class="bu">float</span>().to(device)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>        error <span class="op">=</span> []</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_train, y_train, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>            error.append(loss.item())</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>        trainError.append(np.mean(error))</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        error <span class="op">=</span> []</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_test, y_test, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>            error.append(loss.item())</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>        testError.append(np.mean(error))</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>network.train()</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training error: </span><span class="sc">{np.</span>mean(trainError)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing error: </span><span class="sc">{np.</span>mean(testError)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training error: 0.0023677496880265907
+Testing error: 0.0023655439054771684
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data/convertedChessData0.pkl&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    xData, yData <span class="op">=</span> pkl.load(f)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>xData <span class="op">=</span> xData[:<span class="dv">100</span>].<span class="bu">float</span>().to(device)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>yData <span class="op">=</span> yData.<span class="bu">float</span>().to(device)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>network.<span class="bu">eval</span>()</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>predicted <span class="op">=</span> (network(xData) <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">100</span>):</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    total <span class="op">+=</span> <span class="bu">abs</span>(predicted[i].item() <span class="op">-</span> ((yData[i] <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span>))</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Predicted: </span><span class="sc">{</span>predicted[i]<span class="sc">.</span>item()<span class="sc">}</span><span class="ss">, Actual: </span><span class="sc">{</span>(yData[i] <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>total <span class="op">/=</span> <span class="dv">100</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean: </span><span class="sc">{</span>total<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>network.train()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Predicted: 30.584646224975586, Actual: 10.000091552734375
+Predicted: 35.926185607910156, Actual: 55.999412536621094
+Predicted: 49.713748931884766, Actual: 8.999351501464844
+Predicted: 46.83753204345703, Actual: 52.00010681152344
+Predicted: 29.23328399658203, Actual: 25.999141693115234
+Predicted: 29.417726516723633, Actual: 50.00045394897461
+Predicted: 15.860260963439941, Actual: -10.000091552734375
+Predicted: 18.205059051513672, Actual: 75.00068664550781
+Predicted: 25.45311737060547, Actual: -52.00010681152344
+Predicted: 13.460678100585938, Actual: 52.00010681152344
+Predicted: 24.883352279663086, Actual: -31.99992561340332
+Predicted: 31.700435638427734, Actual: 85.99968719482422
+Predicted: 45.380252838134766, Actual: -25.000226974487305
+Predicted: 44.44708251953125, Actual: 85.99968719482422
+Predicted: 39.613216400146484, Actual: -6.999698638916016
+Predicted: 38.32759475708008, Actual: 107.0006103515625
+Predicted: 47.799922943115234, Actual: -38.99962615966797
+Predicted: 50.413169860839844, Actual: 55.0004997253418
+Predicted: 56.17837905883789, Actual: -64.99967956542969
+Predicted: 49.269989013671875, Actual: 169.0008087158203
+Predicted: 61.9417610168457, Actual: -93.00029754638672
+Predicted: 44.8378791809082, Actual: 262.9991149902344
+Predicted: 51.244075775146484, Actual: -200.99981689453125
+Predicted: 53.46104049682617, Actual: 248.00079345703125
+Predicted: 52.12428665161133, Actual: -168.99989318847656
+Predicted: 37.810791015625, Actual: 238.00070190429688
+Predicted: 40.535430908203125, Actual: -100.99982452392578
+Predicted: 46.40108108520508, Actual: 20.999095916748047
+Predicted: 38.0427131652832, Actual: -133.99957275390625
+Predicted: 23.331111907958984, Actual: 0.0
+Predicted: 22.659080505371094, Actual: -10.000091552734375
+Predicted: 13.745559692382812, Actual: 152.99993896484375
+Predicted: 15.756170272827148, Actual: -150.00045776367188
+Predicted: -1.4536290168762207, Actual: 151.9991912841797
+Predicted: -31.37628936767578, Actual: -162.0001983642578
+Predicted: -32.3185920715332, Actual: 188.99916076660156
+Predicted: -26.50681495666504, Actual: -129.0004425048828
+Predicted: -27.227237701416016, Actual: 208.9993438720703
+Predicted: -18.290889739990234, Actual: -206.99969482421875
+Predicted: -1.3385804891586304, Actual: 248.9997100830078
+Predicted: -3.987435817718506, Actual: -189.0000762939453
+Predicted: -6.472849369049072, Actual: 455.9994201660156
+Predicted: -42.448341369628906, Actual: -175.9995880126953
+Predicted: -36.473121643066406, Actual: 300.00091552734375
+Predicted: 3.1556167602539062, Actual: -252.9999237060547
+Predicted: -4.044046878814697, Actual: 569.0007934570312
+Predicted: -19.678775787353516, Actual: -352.99993896484375
+Predicted: -9.708817481994629, Actual: 344.9994812011719
+Predicted: -3.4633259773254395, Actual: -331.0000915527344
+Predicted: -15.076835632324219, Actual: 383.9991149902344
+Predicted: -18.13018798828125, Actual: -300.0
+Predicted: -20.968963623046875, Actual: 356.9992370605469
+Predicted: -18.79399871826172, Actual: -326.9998779296875
+Predicted: -17.365022659301758, Actual: 436.9999694824219
+Predicted: -15.958874702453613, Actual: -306.99969482421875
+Predicted: -13.322802543640137, Actual: 914.9992065429688
+Predicted: -16.053834915161133, Actual: -929.0004272460938
+Predicted: -28.519250869750977, Actual: 1085.000732421875
+Predicted: -21.609949111938477, Actual: -1026.9998779296875
+Predicted: -23.659820556640625, Actual: 10400.0
+Predicted: -62.05681228637695, Actual: -10400.0
+Predicted: -50.00502014160156, Actual: 10600.0
+Predicted: -78.65940856933594, Actual: -10700.0009765625
+Predicted: 18.387676239013672, Actual: 90.9997329711914
+Predicted: 13.243364334106445, Actual: 16.00087547302246
+Predicted: 5.288579940795898, Actual: 67.000244140625
+Predicted: 7.490937232971191, Actual: -26.00005340576172
+Predicted: 26.96335792541504, Actual: 45.00040817260742
+Predicted: 28.1868896484375, Actual: 6.000784873962402
+Predicted: 34.30820083618164, Actual: 50.99937057495117
+Predicted: 36.30785369873047, Actual: -4.000218868255615
+Predicted: 31.209196090698242, Actual: 78.99999237060547
+Predicted: 51.84305953979492, Actual: -5.999872207641602
+Predicted: 45.76374816894531, Actual: 63.99985122680664
+Predicted: 15.41102409362793, Actual: 3.000392436981201
+Predicted: 42.58439254760742, Actual: 33.99958038330078
+Predicted: 5.522329330444336, Actual: 6.000784873962402
+Predicted: 5.179009914398193, Actual: 63.99985122680664
+Predicted: 29.176671981811523, Actual: 45.00040817260742
+Predicted: 29.499902725219727, Actual: 0.0
+Predicted: 36.521514892578125, Actual: 50.00045394897461
+Predicted: 39.92731857299805, Actual: 15.000136375427246
+Predicted: 43.307552337646484, Actual: 57.000152587890625
+Predicted: 51.84488296508789, Actual: 53.00084686279297
+Predicted: 56.45412826538086, Actual: 40.0003662109375
+Predicted: 50.396732330322266, Actual: 43.999671936035156
+Predicted: 45.63226318359375, Actual: 20.00018310546875
+Predicted: 56.42125701904297, Actual: 23.000574111938477
+Predicted: 53.56330871582031, Actual: 38.000709533691406
+Predicted: 55.93367385864258, Actual: 0.0
+Predicted: 57.04763412475586, Actual: 25.000226974487305
+Predicted: 52.92597579956055, Actual: 0.0
+Predicted: 43.725746154785156, Actual: 55.999412536621094
+Predicted: 46.19654846191406, Actual: 0.0
+Predicted: 64.85266876220703, Actual: 23.000574111938477
+Predicted: 47.171722412109375, Actual: -5.999872207641602
+Predicted: 35.723480224609375, Actual: 48.999717712402344
+Predicted: 40.33455276489258, Actual: 0.0
+Predicted: 30.48238182067871, Actual: 35.99923324584961
+Predicted: 36.35716247558594, Actual: 0.0
+Mean: 563.2985229492188
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>convNet(
+  (conv_relu_stack): Sequential(
+    (0): Conv2d(12, 20, kernel_size=(5, 5), stride=(1, 1))
+    (1): BatchNorm2d(20, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): Dropout2d(p=0.3, inplace=False)
+    (3): ELU(alpha=1.0)
+    (4): Conv2d(20, 50, kernel_size=(3, 3), stride=(1, 1))
+    (5): BatchNorm2d(50, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): Dropout2d(p=0.3, inplace=False)
+    (7): ELU(alpha=1.0)
+    (8): Flatten(start_dim=1, end_dim=-1)
+  )
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=200, out_features=2048, bias=True)
+    (1): BatchNorm1d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ELU(alpha=1.0)
+    (3): Linear(in_features=2048, out_features=2048, bias=True)
+    (4): BatchNorm1d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=2048, out_features=2048, bias=True)
+    (7): BatchNorm1d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (8): ELU(alpha=1.0)
+    (9): Linear(in_features=2048, out_features=1, bias=True)
+    (10): Sigmoid()
+  )
+)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h3><b>Trying a different model</b></h3>
+</div>
+<div class="cell markdown">
+<p>Here I am trying a different model that I found on youtube to see if I can get better results.</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> convNet_two(nn.Module):</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(convNet_two, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># This is the convolutional layers of the network.</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.conv_relu_stack <span class="op">=</span> nn.Sequential(</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">12</span>, <span class="dv">32</span>, kernel_size<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>), padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">32</span>),</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>            nn.ReLU(),</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">32</span>, <span class="dv">32</span>, kernel_size<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>), padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">32</span>),</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>            nn.ReLU(),</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">32</span>, <span class="dv">32</span>, kernel_size<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>), padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">32</span>),</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>            nn.ReLU(),</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>            nn.Conv2d(<span class="dv">32</span>, <span class="dv">32</span>, kernel_size<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>), padding<span class="op">=</span><span class="st">&#39;same&#39;</span>),</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>            nn.BatchNorm2d(<span class="dv">32</span>),</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>            nn.ReLU(),</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>            nn.Flatten()            </span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>        <span class="co"># This is the linear layers of the network.</span></span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.linear_relu_stack <span class="op">=</span> nn.Sequential(</span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">2048</span>, <span class="dv">64</span>),</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>            nn.ReLU(),</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>            nn.Linear(<span class="dv">64</span>, <span class="dv">1</span>),</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>            nn.Sigmoid()</span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># This is the function to run data through the network.</span></span>
+<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, <span class="bu">input</span>):</span>
+<span id="cb21-33"><a href="#cb21-33" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> <span class="va">self</span>.conv_relu_stack(<span class="bu">input</span>)</span>
+<span id="cb21-34"><a href="#cb21-34" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> <span class="va">self</span>.linear_relu_stack(out)</span>
+<span id="cb21-35"><a href="#cb21-35" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> out</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>dropout <span class="op">=</span> <span class="fl">.3</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>learningRate <span class="op">=</span> <span class="fl">5e-4</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>batchSize <span class="op">=</span> <span class="dv">2048</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>numEpochs <span class="op">=</span> <span class="dv">250</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>testSize <span class="op">=</span> <span class="fl">0.1</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>seed <span class="op">=</span> <span class="dv">1234</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>PATH <span class="op">=</span> <span class="st">&quot;chessEngine_two.model&quot;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>pickles <span class="op">=</span> listdir(<span class="st">&quot;data&quot;</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> torch.cuda.is_available():  </span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  dev <span class="op">=</span> <span class="st">&quot;cuda:0&quot;</span> </span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:  </span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  dev <span class="op">=</span> <span class="st">&quot;cpu&quot;</span>  </span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(dev)  </span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    checkpoint <span class="op">=</span> torch.load(PATH)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span>:</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    checkpoint <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Building the network</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>network <span class="op">=</span> convNet_two()</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>network.to(device)</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> checkpoint <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>    network.load_state_dict(checkpoint[<span class="st">&#39;model_state_dict&#39;</span>])</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>optim <span class="op">=</span> torch.optim.Adam(network.parameters(), lr<span class="op">=</span>learningRate, eps<span class="op">=</span><span class="fl">1.91828182846</span>)</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> checkpoint <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>    optim.load_state_dict(checkpoint[<span class="st">&#39;optimizer_state_dict&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Goes through the data numEpoch times</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, numEpochs<span class="op">+</span><span class="dv">1</span>): </span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Goes through each chunk of data</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, pic <span class="kw">in</span> <span class="bu">enumerate</span>(pickles):</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Prints the progress bar</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>        printProgressBar(index, <span class="bu">len</span>(pickles), prefix<span class="op">=</span><span class="ss">f&quot;Epoch </span><span class="sc">{</span>epoch<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Loads the data into xData and yData</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(<span class="ss">f&quot;data/</span><span class="sc">{</span>pic<span class="sc">}</span><span class="ss">&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>            xData, yData <span class="op">=</span> pkl.load(<span class="bu">file</span>)</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Splits the data into chunks based on testSize. We only need the training set right now</span></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>        X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(xData, yData, test_size<span class="op">=</span>testSize, random_state<span class="op">=</span>seed)</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Converts the loaded bitboards and scores into something that can be run through the neural network</span></span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>        X_train <span class="op">=</span> X_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>        y_train <span class="op">=</span> y_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Goes through and returns batchSize number of chessboards and corresponding scores to run through the network each loop</span></span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_train, y_train, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>            network.zero_grad()</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a>            loss.backward()</span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a>            optim.step()</span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Save the model every 5 epochs</span></span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> epoch <span class="op">%</span> <span class="dv">5</span> <span class="op">==</span> <span class="dv">0</span>:        </span>
+<span id="cb24-31"><a href="#cb24-31" aria-hidden="true" tabindex="-1"></a>        torch.save({</span>
+<span id="cb24-32"><a href="#cb24-32" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;model_state_dict&#39;</span>: network.state_dict(),</span>
+<span id="cb24-33"><a href="#cb24-33" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;optimizer_state_dict&#39;</span>: optim.state_dict(),</span>
+<span id="cb24-34"><a href="#cb24-34" aria-hidden="true" tabindex="-1"></a>                }, PATH)     </span>
+<span id="cb24-35"><a href="#cb24-35" aria-hidden="true" tabindex="-1"></a>                    </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 6 |███████████████████████-----------------------------------------------------------------------------| 23.1% </code></pre>
+</div>
+<div class="output error" data-ename="KeyboardInterrupt" data-evalue="">
+<pre><code>---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+Cell In [15], line 12
+     10 # Loads the data into xData and yData
+     11 with open(f&quot;data/{pic}&quot;, &quot;rb&quot;) as file:
+---&gt; 12     xData, yData = pkl.load(file)
+     14 # Splits the data into chunks based on testSize. We only need the training set right now
+     15 X_train, X_test, y_train, y_test = train_test_split(xData, yData, test_size=testSize, random_state=seed)
+
+File c:\Users\nussb\anaconda3\envs\chessBotEnv\lib\site-packages\torch\storage.py:160, in _load_from_bytes(b)
+    156         else:
+    157             return cls._new_using_fd(size)
+--&gt; 160 def _load_from_bytes(b):
+    161     return torch.load(io.BytesIO(b))
+    164 _StorageBase.type = _type  # type: ignore[assignment]
+
+KeyboardInterrupt: 
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>trainError <span class="op">=</span> []</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>testError <span class="op">=</span> []</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>network.<span class="bu">eval</span>()</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> torch.no_grad():</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> pic <span class="kw">in</span> pickles:</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(<span class="ss">f&quot;data/</span><span class="sc">{</span>pic<span class="sc">}</span><span class="ss">&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>            xData, yData <span class="op">=</span> pkl.load(<span class="bu">file</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>        X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(xData, yData, test_size<span class="op">=</span>testSize, random_state<span class="op">=</span>seed)</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>        X_train <span class="op">=</span> X_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>        X_test <span class="op">=</span> X_test.<span class="bu">float</span>().to(device)</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>        y_train <span class="op">=</span> y_train.<span class="bu">float</span>().to(device)</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>        y_test <span class="op">=</span> y_test.<span class="bu">float</span>().to(device)</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>        error <span class="op">=</span> []</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_train, y_train, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>            error.append(loss.item())</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>        trainError.append(np.mean(error))</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>        error <span class="op">=</span> []</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> X_batch,y_batch <span class="kw">in</span> iterate_minibatches(X_test, y_test, batchsize<span class="op">=</span>batchSize, shuffle<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>            out <span class="op">=</span> network(X_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">12</span>, <span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a>            loss <span class="op">=</span> mse_loss(out, y_batch.view(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>))</span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>            error.append(loss.item())</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>        testError.append(np.mean(error))</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a>network.train()</span>
+<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Training error: </span><span class="sc">{np.</span>mean(trainError)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Testing error: </span><span class="sc">{np.</span>mean(testError)<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output error" data-ename="KeyboardInterrupt" data-evalue="">
+<pre><code>---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+Cell In [16], line 8
+      6 for pic in pickles:
+      7     with open(f&quot;data/{pic}&quot;, &quot;rb&quot;) as file:
+----&gt; 8         xData, yData = pkl.load(file)
+      9     X_train, X_test, y_train, y_test = train_test_split(xData, yData, test_size=testSize, random_state=seed)
+     10     X_train = X_train.float().to(device)
+
+File c:\Users\nussb\anaconda3\envs\chessBotEnv\lib\site-packages\torch\storage.py:160, in _load_from_bytes(b)
+    156         else:
+    157             return cls._new_using_fd(size)
+--&gt; 160 def _load_from_bytes(b):
+    161     return torch.load(io.BytesIO(b))
+    164 _StorageBase.type = _type  # type: ignore[assignment]
+
+KeyboardInterrupt: 
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;data/convertedChessData0.pkl&quot;</span>, <span class="st">&quot;rb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    xData, yData <span class="op">=</span> pkl.load(f)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>xData <span class="op">=</span> xData[:<span class="dv">100</span>].<span class="bu">float</span>().to(device)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>yData <span class="op">=</span> yData.<span class="bu">float</span>().to(device)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>network.<span class="bu">eval</span>()</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>predicted <span class="op">=</span> (network(xData) <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>total <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">100</span>):</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    total <span class="op">+=</span> <span class="bu">abs</span>(predicted[i].item() <span class="op">-</span> ((yData[i] <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span>))</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Predicted: </span><span class="sc">{</span>predicted[i]<span class="sc">.</span>item()<span class="sc">}</span><span class="ss">, Actual: </span><span class="sc">{</span>(yData[i] <span class="op">-</span> <span class="fl">0.5</span>) <span class="op">*</span> <span class="dv">2</span><span class="op">*</span><span class="dv">15319</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>total <span class="op">/=</span> <span class="dv">100</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean: </span><span class="sc">{</span>total<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>network.train()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Predicted: 1304.0567626953125, Actual: 10.000091552734375
+Predicted: 997.306396484375, Actual: 55.999412536621094
+Predicted: 664.1221923828125, Actual: 8.999351501464844
+Predicted: 446.5106506347656, Actual: 52.00010681152344
+Predicted: -18.208711624145508, Actual: 25.999141693115234
+Predicted: 124.12822723388672, Actual: 50.00045394897461
+Predicted: 11.828083992004395, Actual: -10.000091552734375
+Predicted: -466.4715576171875, Actual: 75.00068664550781
+Predicted: -690.5997924804688, Actual: -52.00010681152344
+Predicted: -158.9413604736328, Actual: 52.00010681152344
+Predicted: -469.3313293457031, Actual: -31.99992561340332
+Predicted: -348.6792297363281, Actual: 85.99968719482422
+Predicted: -312.1832580566406, Actual: -25.000226974487305
+Predicted: 266.3921203613281, Actual: 85.99968719482422
+Predicted: 84.45292663574219, Actual: -6.999698638916016
+Predicted: 154.48277282714844, Actual: 107.0006103515625
+Predicted: 25.66312599182129, Actual: -38.99962615966797
+Predicted: -852.2064208984375, Actual: 55.0004997253418
+Predicted: -806.1751708984375, Actual: -64.99967956542969
+Predicted: -811.345947265625, Actual: 169.0008087158203
+Predicted: -1007.0398559570312, Actual: -93.00029754638672
+Predicted: -352.8355712890625, Actual: 262.9991149902344
+Predicted: -572.6978759765625, Actual: -200.99981689453125
+Predicted: -926.895751953125, Actual: 248.00079345703125
+Predicted: -524.9134521484375, Actual: -168.99989318847656
+Predicted: -348.9211730957031, Actual: 238.00070190429688
+Predicted: 823.384033203125, Actual: -100.99982452392578
+Predicted: 202.89263916015625, Actual: 20.999095916748047
+Predicted: 361.6230773925781, Actual: -133.99957275390625
+Predicted: -124.10083770751953, Actual: 0.0
+Predicted: -591.6781616210938, Actual: -10.000091552734375
+Predicted: -669.5641479492188, Actual: 152.99993896484375
+Predicted: -427.289306640625, Actual: -150.00045776367188
+Predicted: 641.2987670898438, Actual: 151.9991912841797
+Predicted: 1158.3250732421875, Actual: -162.0001983642578
+Predicted: 1550.220458984375, Actual: 188.99916076660156
+Predicted: 1601.4024658203125, Actual: -129.0004425048828
+Predicted: 530.9033203125, Actual: 208.9993438720703
+Predicted: 327.2034912109375, Actual: -206.99969482421875
+Predicted: 358.6336669921875, Actual: 248.9997100830078
+Predicted: -38.38785934448242, Actual: -189.0000762939453
+Predicted: 163.2976837158203, Actual: 455.9994201660156
+Predicted: 173.15716552734375, Actual: -175.9995880126953
+Predicted: 2.7922096252441406, Actual: 300.00091552734375
+Predicted: -647.3077392578125, Actual: -252.9999237060547
+Predicted: -347.61181640625, Actual: 569.0007934570312
+Predicted: -392.8213195800781, Actual: -352.99993896484375
+Predicted: 34.24611282348633, Actual: 344.9994812011719
+Predicted: -39.17311096191406, Actual: -331.0000915527344
+Predicted: -20.80826187133789, Actual: 383.9991149902344
+Predicted: 220.4329833984375, Actual: -300.0
+Predicted: -81.53105926513672, Actual: 356.9992370605469
+Predicted: -234.13653564453125, Actual: -326.9998779296875
+Predicted: -342.3789367675781, Actual: 436.9999694824219
+Predicted: -266.72265625, Actual: -306.99969482421875
+Predicted: 172.6805419921875, Actual: 914.9992065429688
+Predicted: 18.77117156982422, Actual: -929.0004272460938
+Predicted: -98.12635040283203, Actual: 1085.000732421875
+Predicted: 15.904088973999023, Actual: -1026.9998779296875
+Predicted: -285.23724365234375, Actual: 10400.0
+Predicted: 195.35240173339844, Actual: -10400.0
+Predicted: -245.8870086669922, Actual: 10600.0
+Predicted: 385.65545654296875, Actual: -10700.0009765625
+Predicted: 200.91490173339844, Actual: 90.9997329711914
+Predicted: -8.742774963378906, Actual: 16.00087547302246
+Predicted: -192.4204864501953, Actual: 67.000244140625
+Predicted: -87.05977630615234, Actual: -26.00005340576172
+Predicted: -321.2867126464844, Actual: 45.00040817260742
+Predicted: -259.4901428222656, Actual: 6.000784873962402
+Predicted: 269.1898193359375, Actual: 50.99937057495117
+Predicted: 259.90374755859375, Actual: -4.000218868255615
+Predicted: 247.71591186523438, Actual: 78.99999237060547
+Predicted: 109.99004364013672, Actual: -5.999872207641602
+Predicted: 677.1226806640625, Actual: 63.99985122680664
+Predicted: 718.363037109375, Actual: 3.000392436981201
+Predicted: 901.3650512695312, Actual: 33.99958038330078
+Predicted: 214.95265197753906, Actual: 6.000784873962402
+Predicted: 443.71844482421875, Actual: 63.99985122680664
+Predicted: 625.533447265625, Actual: 45.00040817260742
+Predicted: -87.38483428955078, Actual: 0.0
+Predicted: -99.90412139892578, Actual: 50.00045394897461
+Predicted: -428.98492431640625, Actual: 15.000136375427246
+Predicted: -372.085205078125, Actual: 57.000152587890625
+Predicted: -614.436767578125, Actual: 53.00084686279297
+Predicted: -347.47576904296875, Actual: 40.0003662109375
+Predicted: 21.556076049804688, Actual: 43.999671936035156
+Predicted: 114.33084106445312, Actual: 20.00018310546875
+Predicted: -294.0439453125, Actual: 23.000574111938477
+Predicted: -590.402587890625, Actual: 38.000709533691406
+Predicted: -878.2731323242188, Actual: 0.0
+Predicted: -209.25318908691406, Actual: 25.000226974487305
+Predicted: 396.210693359375, Actual: 0.0
+Predicted: 32.054710388183594, Actual: 55.999412536621094
+Predicted: 180.2207794189453, Actual: 0.0
+Predicted: 104.7105941772461, Actual: 23.000574111938477
+Predicted: 302.5812683105469, Actual: -5.999872207641602
+Predicted: 181.3164825439453, Actual: 48.999717712402344
+Predicted: 30.833005905151367, Actual: 0.0
+Predicted: -268.4803466796875, Actual: 35.99923324584961
+Predicted: -910.42919921875, Actual: 0.0
+Mean: 866.56982421875
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>convNet_two(
+  (conv_relu_stack): Sequential(
+    (0): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (4): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU()
+    (6): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (7): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (8): ReLU()
+    (9): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=same)
+    (10): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (11): ReLU()
+    (12): Flatten(start_dim=1, end_dim=-1)
+  )
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=2048, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=1, bias=True)
+    (3): Sigmoid()
+  )
+)</code></pre>
+</div>
+</div>
+</body>
+</html>
