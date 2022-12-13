@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>3050a62d01874d25a62326cf6018a9ab</title>
+  <title>Convolutional Chess Neural Network Tutorial</title>
   <style>
     html {
       line-height: 1.5;
@@ -487,7 +487,7 @@ Max Distance from Zero: 15319
 <p><b><em>Batch Normalization Layer:</em></b> The batch normalization layer takes the inputs and normalizes them. This helps the network learn better.</p>
 <p><b><em>Dropout Layer:</em></b> The dropout layer applies the dropout hyper-parameter to the data as it is run through the network. This means it sets part of the inputs to zero. This helps prevent over-fitting.</p>
 <p><b><em>Flatten Layer:</em></b> A convolutional layer require a two dimensional data to be run through it. A linear layer requires one dimensional data to be run through it. The flatten layer takes the two dimensional data that the convolutional layer was working with and collapses it into one dimension.</p>
-<p><b><em>ELU Layer:</em></b> A key component of neural networks are activation functions. One of the activation functions is called ELU. This is essentially taking each input and if that input is greater than 0, it will return that same input but if the input is less than 0, the ELU layer will return α*(e<sup>x</sup> - 1) where α is a setting that can be change and x is the input.</p>
+<p><b><em>ELU Layer:</em></b> A key component of neural networks are activation functions. One of the activation functions is called ELU. This is essentially taking each input and if that input is greater than 0, it will return that same input but if the input is less than 0, the ELU layer will return α*(e<sup>x</sup> - 1) where α is a setting that can be changed and x is the input.</p>
 <p><b><em>Sigmoid Layer:</em></b> The sigmoid layer will collapse all of the outputs to be between 0 and 1. This will help the network learn our data better. It does this by passing the inputs to the layer through the function 1/(1 + e^(-x)).</p>
 </div>
 <div class="cell code" data-execution_count="4">
